@@ -1,0 +1,54 @@
+body, 
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    /* background: url(Cool-Laptop-Backgrounds-25-2560-x-1600.jpeg) no-repeat center center fixed;  */
+    background: rgb(18, 18, 18);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.buffer {
+    height: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    border-radius: 4px;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+    
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-secondary {
+    background-color: #F05F44;
+    border-color: #F05F44;
+    transition: all 0.4s;
+}
+
+.btn-secondary:hover {
+    background-color: #b61d1d;
+    border-color: #b61d1d;
+    transform: scale(1.05);
+}
